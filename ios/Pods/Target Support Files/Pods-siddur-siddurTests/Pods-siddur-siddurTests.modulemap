@@ -1,0 +1,6 @@
+module Pods_siddur_siddurTests {
+  umbrella header "Pods-siddur-siddurTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
