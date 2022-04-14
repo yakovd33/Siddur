@@ -3,7 +3,10 @@ const texts = {
         dailyPrayers: 'תפילות היום',
         shacharit: 'שחרית',
         minha: 'מנחה',
-        arvit: 'ערבית'
+        arvit: 'ערבית',
+        birkotHashahar: 'ברכות השחר',
+        birkatHatora: 'ברכת התורה',
+        eliayuSeder: 'סדר פתח אליהו'
     }
 }
 

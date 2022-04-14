@@ -9,60 +9,81 @@
 9        android:targetSdkVersion="30" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/yakov/Desktop/siddur/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/Users/yakov/Desktop/siddur/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/Users/yakov/Desktop/Siddur/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/yakov/Desktop/Siddur/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:4:22-64
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
 13-->[com.facebook.flipper:flipper:0.99.0] /Users/yakov/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.99.0] /Users/yakov/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:6:5-24:19
-16        android:name="com.siddur.MainApplication"
-16-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.6.0] /Users/yakov/.gradle/caches/transforms-3/9f18c6b50baa776d71894ad120630276/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/Users/yakov/Desktop/siddur/android/app/src/debug/AndroidManifest.xml:8:9-44
-25        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-25-->/Users/yakov/Desktop/siddur/android/app/src/debug/AndroidManifest.xml:11:9-86
-25-->/Users/yakov/Desktop/siddur/android/app/src/debug/AndroidManifest.xml:11:19-83
-26        <activity
-26-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:13:7-23:18
-27            android:name="com.siddur.MainActivity"
-27-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:14:9-37
-28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-28-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:16:9-86
-29            android:label="@string/app_name"
-29-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:15:9-41
-30            android:launchMode="singleTask"
-30-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:17:9-40
-31            android:windowSoftInputMode="adjustResize" >
-31-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:18:9-51
-32            <intent-filter>
-32-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:19:9-22:25
-33                <action android:name="android.intent.action.MAIN" />
-33-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:20:13-65
-33-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:20:21-62
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:21:13-73
-35-->/Users/yakov/Desktop/siddur/android/app/src/main/AndroidManifest.xml:21:23-70
-36            </intent-filter>
-37        </activity>
-38    </application>
-39
-40</manifest>
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.android.gms:play-services-iid:17.0.0] /Users/yakov/.gradle/caches/transforms-3/e6d8a0d5c74803b1cab3752897736947/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+14-->[com.google.android.gms:play-services-iid:17.0.0] /Users/yakov/.gradle/caches/transforms-3/e6d8a0d5c74803b1cab3752897736947/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.android.installreferrer:installreferrer:1.1.2] /Users/yakov/.gradle/caches/transforms-3/aa8b66c6e700288f91862b6c68209a14/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+15-->[com.android.installreferrer:installreferrer:1.1.2] /Users/yakov/.gradle/caches/transforms-3/aa8b66c6e700288f91862b6c68209a14/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+16
+17    <application
+17-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:6:5-24:19
+18        android:name="com.siddur.MainApplication"
+18-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:7:7-38
+19        android:allowBackup="false"
+19-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:11:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.6.0] /Users/yakov/.gradle/caches/transforms-3/9f18c6b50baa776d71894ad120630276/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:9:7-41
+23        android:label="@string/app_name"
+23-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:8:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:10:7-52
+25        android:theme="@style/AppTheme"
+25-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:12:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/Users/yakov/Desktop/Siddur/android/app/src/debug/AndroidManifest.xml:8:9-44
+27        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+27-->/Users/yakov/Desktop/Siddur/android/app/src/debug/AndroidManifest.xml:11:9-86
+27-->/Users/yakov/Desktop/Siddur/android/app/src/debug/AndroidManifest.xml:11:19-83
+28        <activity
+28-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:13:7-23:18
+29            android:name="com.siddur.MainActivity"
+29-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:14:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:16:9-86
+31            android:label="@string/app_name"
+31-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:15:9-41
+32            android:launchMode="singleTask"
+32-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:17:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:18:9-51
+34            <intent-filter>
+34-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:19:9-22:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:20:13-65
+35-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:20:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:21:13-73
+37-->/Users/yakov/Desktop/Siddur/android/app/src/main/AndroidManifest.xml:21:23-70
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->[com.google.android.gms:play-services-base:17.0.0] /Users/yakov/.gradle/caches/transforms-3/197aafdaca714ffb9edd95fe82ca0ad4/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+41            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+41-->[com.google.android.gms:play-services-base:17.0.0] /Users/yakov/.gradle/caches/transforms-3/197aafdaca714ffb9edd95fe82ca0ad4/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+42            android:exported="false"
+42-->[com.google.android.gms:play-services-base:17.0.0] /Users/yakov/.gradle/caches/transforms-3/197aafdaca714ffb9edd95fe82ca0ad4/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+43-->[com.google.android.gms:play-services-base:17.0.0] /Users/yakov/.gradle/caches/transforms-3/197aafdaca714ffb9edd95fe82ca0ad4/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+44
+45        <meta-data
+45-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yakov/.gradle/caches/transforms-3/0e3d0c4f5635e0c3c0cfa0e0064e8f7e/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+46            android:name="com.google.android.gms.version"
+46-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yakov/.gradle/caches/transforms-3/0e3d0c4f5635e0c3c0cfa0e0064e8f7e/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+47            android:value="@integer/google_play_services_version" />
+47-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yakov/.gradle/caches/transforms-3/0e3d0c4f5635e0c3c0cfa0e0064e8f7e/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+48    </application>
+49
+50</manifest>

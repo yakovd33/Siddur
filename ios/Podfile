@@ -12,6 +12,10 @@ target 'siddur' do
     :hermes_enabled => false
   )
 
+  pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-async-storage/async-storage'
+
   target 'siddurTests' do
     inherit! :complete
     # Pods for testing

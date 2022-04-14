@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, FlatList, SafeAreaView, ScrollView, Button } fr
 import React from 'react';
 import PrayerButton from './prayerButton';
 
-const PrayerCategory = ({ title, prayers, navigation }) => {
+const PrayerCategory = ({ title, prayers, type, navigation }) => {
 	return (
 		<View>
 			<Text style={ styles.title }>{ title }</Text>
@@ -10,9 +10,10 @@ const PrayerCategory = ({ title, prayers, navigation }) => {
 				data={ prayers }
 				horizontal
 				showsHorizontalScrollIndicator={ false }
-				initialScrollIndex={ prayers.length - 1 }
-				renderItem={ ({ item }) => <PrayerButton item={ item } navigation={ navigation }/> }
+				renderItem={ ({ item }) => <PrayerButton item={ item } navigation={ navigation } type={ type }/> }
 				keyExtractor={item => item.name}
+				contentContainerStyle={{ paddingVertical: 20, paddingHorizontal: 0 }}
+				style={{ marginRight: 5, marginLeft: -10, marginTop: -5 }}
 			/>
 		</View>
 	)
@@ -27,6 +28,7 @@ const styles = StyleSheet.create({
 	title: {
 	  fontSize: 18,
 	  fontWeight: 'bold',
-	  marginBottom: 10
+	  marginTop: 10,
+	  color: '#121212'
 	},
 });  

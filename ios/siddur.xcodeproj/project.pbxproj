@@ -11,10 +11,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		368218CF9057C4B4D4CA8FBC /* libPods-siddur.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2064BAA5BA27FEE4CEA9AB51 /* libPods-siddur.a */; };
+		15AA72F805B82BD431776804 /* libPods-siddur-siddurTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3C216013D2FD1C388A32F0 /* libPods-siddur-siddurTests.a */; };
+		33736FE261E84690B8FD903F /* hadasimclm-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E62775A388994BBE85432534 /* hadasimclm-regular-webfont.ttf */; };
+		4B6DF4CBCCD5C96F336A1566 /* libPods-siddur.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C60B480B6D0FC34305751EA0 /* libPods-siddur.a */; };
 		66DAA73927E340D100F1B19F /* launch_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 66DAA73827E340D100F1B19F /* launch_screen.png */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C63D767FD510ED6117444CBA /* libPods-siddur-siddurTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D2764C191A4EFC81032FC /* libPods-siddur-siddurTests.a */; };
+		C3FCAA16F55D4D89B8189720 /* hadasim-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29BCD4FA0C440F1B7F67734 /* hadasim-regular.ttf */; };
+		E8F3533C2AD546D0B0C57159 /* hadasimclm-bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E663A516CE4061A0F03713 /* hadasimclm-bold-webfont.ttf */; };
+		EC455BA8469E4EE5AF33000E /* hadasim-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7599E34DB77545B1AF27F0E9 /* hadasim-bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,21 +35,25 @@
 		00E356EE1AD99517003FC87E /* siddurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siddurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* siddurTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = siddurTests.m; sourceTree = "<group>"; };
-		127D2764C191A4EFC81032FC /* libPods-siddur-siddurTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-siddur-siddurTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E663A516CE4061A0F03713 /* hadasimclm-bold-webfont.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "hadasimclm-bold-webfont.ttf"; path = "../assets/fonts/hadasimclm-bold-webfont.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* siddur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siddur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = siddur/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = siddur/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = siddur/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = siddur/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = siddur/main.m; sourceTree = "<group>"; };
-		166D6D1FB8DA746418EFDAE1 /* Pods-siddur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siddur.release.xcconfig"; path = "Target Support Files/Pods-siddur/Pods-siddur.release.xcconfig"; sourceTree = "<group>"; };
-		2064BAA5BA27FEE4CEA9AB51 /* libPods-siddur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-siddur.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		343580014E3A7EA8232427D6 /* Pods-siddur-siddurTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siddur-siddurTests.debug.xcconfig"; path = "Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests.debug.xcconfig"; sourceTree = "<group>"; };
 		66DAA73827E340D100F1B19F /* launch_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch_screen.png; path = siddur/launch_screen.png; sourceTree = "<group>"; };
-		805386638D2CB22372BBA1B3 /* Pods-siddur-siddurTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siddur-siddurTests.release.xcconfig"; path = "Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests.release.xcconfig"; sourceTree = "<group>"; };
+		7599E34DB77545B1AF27F0E9 /* hadasim-bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "hadasim-bold.ttf"; path = "../assets/fonts/hadasim-bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = siddur/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8C7424E84EEC410AA601D8F4 /* Pods-siddur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siddur.debug.xcconfig"; path = "Target Support Files/Pods-siddur/Pods-siddur.debug.xcconfig"; sourceTree = "<group>"; };
+		9D3C216013D2FD1C388A32F0 /* libPods-siddur-siddurTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-siddur-siddurTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F5E0B3B967A03F8DC5A500 /* Pods-siddur-siddurTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siddur-siddurTests.debug.xcconfig"; path = "Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B29BCD4FA0C440F1B7F67734 /* hadasim-regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "hadasim-regular.ttf"; path = "../assets/fonts/hadasim-regular.ttf"; sourceTree = "<group>"; };
+		C60B480B6D0FC34305751EA0 /* libPods-siddur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-siddur.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3739245B0A8E3B805DA298A /* Pods-siddur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siddur.debug.xcconfig"; path = "Target Support Files/Pods-siddur/Pods-siddur.debug.xcconfig"; sourceTree = "<group>"; };
+		DFA75E1E68B5AA44920D5216 /* Pods-siddur-siddurTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siddur-siddurTests.release.xcconfig"; path = "Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests.release.xcconfig"; sourceTree = "<group>"; };
+		E62775A388994BBE85432534 /* hadasimclm-regular-webfont.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "hadasimclm-regular-webfont.ttf"; path = "../assets/fonts/hadasimclm-regular-webfont.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F3C884560F45FB03C2485DA7 /* Pods-siddur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siddur.release.xcconfig"; path = "Target Support Files/Pods-siddur/Pods-siddur.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C63D767FD510ED6117444CBA /* libPods-siddur-siddurTests.a in Frameworks */,
+				15AA72F805B82BD431776804 /* libPods-siddur-siddurTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368218CF9057C4B4D4CA8FBC /* libPods-siddur.a in Frameworks */,
+				4B6DF4CBCCD5C96F336A1566 /* libPods-siddur.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +107,24 @@
 			name = siddur;
 			sourceTree = "<group>";
 		};
+		14D26133710E4648A25B1087 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03E663A516CE4061A0F03713 /* hadasimclm-bold-webfont.ttf */,
+				E62775A388994BBE85432534 /* hadasimclm-regular-webfont.ttf */,
+				7599E34DB77545B1AF27F0E9 /* hadasim-bold.ttf */,
+				B29BCD4FA0C440F1B7F67734 /* hadasim-regular.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				2064BAA5BA27FEE4CEA9AB51 /* libPods-siddur.a */,
-				127D2764C191A4EFC81032FC /* libPods-siddur-siddurTests.a */,
+				C60B480B6D0FC34305751EA0 /* libPods-siddur.a */,
+				9D3C216013D2FD1C388A32F0 /* libPods-siddur-siddurTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,10 +139,10 @@
 		834BCF53F28D705B547E1FEF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8C7424E84EEC410AA601D8F4 /* Pods-siddur.debug.xcconfig */,
-				166D6D1FB8DA746418EFDAE1 /* Pods-siddur.release.xcconfig */,
-				343580014E3A7EA8232427D6 /* Pods-siddur-siddurTests.debug.xcconfig */,
-				805386638D2CB22372BBA1B3 /* Pods-siddur-siddurTests.release.xcconfig */,
+				D3739245B0A8E3B805DA298A /* Pods-siddur.debug.xcconfig */,
+				F3C884560F45FB03C2485DA7 /* Pods-siddur.release.xcconfig */,
+				B0F5E0B3B967A03F8DC5A500 /* Pods-siddur-siddurTests.debug.xcconfig */,
+				DFA75E1E68B5AA44920D5216 /* Pods-siddur-siddurTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -136,6 +156,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				834BCF53F28D705B547E1FEF /* Pods */,
+				14D26133710E4648A25B1087 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -158,12 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "siddurTests" */;
 			buildPhases = (
-				AE9EF8EFDFF4421F369450AB /* [CP] Check Pods Manifest.lock */,
+				42366E4D5FA1198800B7AE59 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				8A13241563922B80BAC7CC7C /* [CP] Embed Pods Frameworks */,
-				BAF7D542EC599F1503494C06 /* [CP] Copy Pods Resources */,
+				E08FC8BEF015CFAA56D8E79E /* [CP] Embed Pods Frameworks */,
+				84C5B7B7DB0DF97C4613EA10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,14 +200,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "siddur" */;
 			buildPhases = (
-				418354D5D507CC4F75286BBB /* [CP] Check Pods Manifest.lock */,
+				02C5DDCA3A1FED25376427D2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				4208D5E612255EC00CFA3113 /* [CP] Embed Pods Frameworks */,
-				4CBB04DB625B3B6671EDF89A /* [CP] Copy Pods Resources */,
+				010B6788361C53A4BE80A722 /* [CP] Embed Pods Frameworks */,
+				FCB889E77A9560233CB8BEF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +269,10 @@
 				66DAA73927E340D100F1B19F /* launch_screen.png in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E8F3533C2AD546D0B0C57159 /* hadasimclm-bold-webfont.ttf in Resources */,
+				33736FE261E84690B8FD903F /* hadasimclm-regular-webfont.ttf in Resources */,
+				EC455BA8469E4EE5AF33000E /* hadasim-bold.ttf in Resources */,
+				C3FCAA16F55D4D89B8189720 /* hadasim-regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +293,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		418354D5D507CC4F75286BBB /* [CP] Check Pods Manifest.lock */ = {
+		010B6788361C53A4BE80A722 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		02C5DDCA3A1FED25376427D2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,58 +332,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4208D5E612255EC00CFA3113 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4CBB04DB625B3B6671EDF89A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A13241563922B80BAC7CC7C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AE9EF8EFDFF4421F369450AB /* [CP] Check Pods Manifest.lock */ = {
+		42366E4D5FA1198800B7AE59 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,7 +354,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BAF7D542EC599F1503494C06 /* [CP] Copy Pods Resources */ = {
+		84C5B7B7DB0DF97C4613EA10 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,6 +369,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E08FC8BEF015CFAA56D8E79E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-siddur-siddurTests/Pods-siddur-siddurTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB889E77A9560233CB8BEF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-siddur/Pods-siddur-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -432,7 +457,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 343580014E3A7EA8232427D6 /* Pods-siddur-siddurTests.debug.xcconfig */;
+			baseConfigurationReference = B0F5E0B3B967A03F8DC5A500 /* Pods-siddur-siddurTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -459,7 +484,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 805386638D2CB22372BBA1B3 /* Pods-siddur-siddurTests.release.xcconfig */;
+			baseConfigurationReference = DFA75E1E68B5AA44920D5216 /* Pods-siddur-siddurTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -483,7 +508,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C7424E84EEC410AA601D8F4 /* Pods-siddur.debug.xcconfig */;
+			baseConfigurationReference = D3739245B0A8E3B805DA298A /* Pods-siddur.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -509,7 +534,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 166D6D1FB8DA746418EFDAE1 /* Pods-siddur.release.xcconfig */;
+			baseConfigurationReference = F3C884560F45FB03C2485DA7 /* Pods-siddur.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
